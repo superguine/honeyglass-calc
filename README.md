@@ -4,8 +4,10 @@ A glassmorphism calculator built with plain HTML, CSS and JavaScript, in a warm 
 
 **Live demo:** https://superguine.github.io/honeyglass-calc/
 
-<!-- Add a screenshot: save it as screenshot.png in the repo root, then uncomment the line below -->
-<!-- ![honeyglass-calc screenshot](screenshot.png) -->
+## Screenshot
+
+<img width="1920" height="933" alt="Screenshot_20261002_111306" src="https://github.com/user-attachments/assets/687c0470-22f6-49fb-948e-2a42279a93de" />
+
 
 ## Features
 
@@ -85,13 +87,3 @@ From [Color Hunt](https://colorhunt.co/palette/f9e6a8f2a900cc6f004d2a00):
 ## Browser support
 
 Works in current versions of Chrome, Edge, Firefox and Safari. The glass effect relies on `backdrop-filter`, which older browsers may not support.
-
-## Deploy with GitHub Pages
-
-1. Push the files to the `main` branch.
-2. Go to **Settings → Pages**.
-3. Set the source to `main` and `/ (root)`, then save.
-
-## License
-
-Released under the [MIT License](LICENSE).
