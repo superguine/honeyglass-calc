@@ -75,7 +75,3 @@ Works in current versions of Chrome, Edge, Firefox and Safari. The glass effect 
 1. Push the files to the `main` branch.
 2. Go to **Settings → Pages**.
 3. Set the source to `main` and `/ (root)`, then save.
-
-## License
-
-Released under the [MIT License](LICENSE).
