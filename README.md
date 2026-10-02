@@ -4,7 +4,8 @@ A glassmorphism calculator built with plain HTML, CSS and JavaScript, in a warm 
 
 **Live demo:** https://superguine.github.io/honeyglass-calc/
 
-
+<!-- Add a screenshot: save it as screenshot.png in the repo root, then uncomment the line below -->
+<!-- ![honeyglass-calc screenshot](screenshot.png) -->
 
 ## Features
 
@@ -49,11 +50,26 @@ python3 -m http.server 8000
 
 ```
 honeyglass-calc/
-├── index.html   # Markup
-├── style.css    # Glassmorphism styling and layout
-├── script.js    # Calculator logic and keyboard handling
+├── index.html            # Markup
+├── style.css             # Glassmorphism styling and layout
+├── calculator-core.js    # Calculator logic (no DOM, unit tested)
+├── script.js             # Buttons, keyboard and display wiring
+├── tests/
+│   └── calculator.test.js
+├── package.json
+├── .github/workflows/test.yml
 └── README.md
 ```
+
+## Testing
+
+Unit tests use Node's built-in test runner, so there is nothing to install. You need Node.js 22 or newer:
+
+```bash
+npm test
+```
+
+The same tests run automatically on GitHub Actions for every push to `main` and every pull request.
 
 ## Color palette
 
@@ -75,3 +91,7 @@ Works in current versions of Chrome, Edge, Firefox and Safari. The glass effect 
 1. Push the files to the `main` branch.
 2. Go to **Settings → Pages**.
 3. Set the source to `main` and `/ (root)`, then save.
+
+## License
+
+Released under the [MIT License](LICENSE).
